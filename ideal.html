@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Calculadora de Peso Ideal Online Gratis 2026 – CalculadoraIMC.online</title>
+<meta name="description" content="Calcula tu peso ideal gratis según tu estatura y sexo. Usa la fórmula Hamwi y los rangos OMS (IMC 18.5-24.9). Herramienta gratuita actualizada 2026."/>
+<meta name="robots" content="index, follow"/>
+<link rel="canonical" href="https://calculadoraimc.online/ideal.html"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Syne:wght@700;800&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="estilos.css"/>
+</head>
+<body>
+
+<header class="hd">
+  <div class="c hd__i">
+    <a href="index.html" class="logo"><span>⚖️</span><span class="logo__t">Calculadora<strong>IMC</strong>.online</span></a>
+    <p class="hd__tag">Tu salud, medida con precisión</p>
+  </div>
+</header>
+
+<nav class="nav-principal" aria-label="Navegación principal">
+  <a href="index.html"    class="nav-btn">🏠 Inicio</a>
+  <a href="imc.html"      class="nav-btn">⚖️ Calcular IMC</a>
+  <a href="ideal.html"    class="nav-btn activo">🎯 Peso Ideal</a>
+  <a href="calorias.html" class="nav-btn">🔥 Calorías</a>
+  <a href="cintura.html"  class="nav-btn">📏 Cintura-Altura</a>
+  <a href="consejos.html" class="nav-btn">💡 Consejos</a>
+</nav>
+
+<div class="hero-int">
+  <div class="c">
+    <p class="breadcrumb"><a href="index.html">Inicio</a> › Peso Ideal</p>
+    <h1>🎯 Calculadora de Peso Ideal</h1>
+    <p>Estima tu rango de peso saludable con fórmulas médicas reconocidas internacionalmente.</p>
+  </div>
+</div>
+
+<main class="main-content">
+  <div class="c">
+
+    <form class="cf" id="fIdeal" novalidate>
+      <div class="fr">
+        <div class="fg">
+          <label for="tIdeal">Estatura (cm)</label>
+          <input type="number" id="tIdeal" min="100" max="250" placeholder="175"/>
+          <span class="em">Introduce tu estatura</span>
+        </div>
+        <div class="fg">
+          <label for="sIdeal">Sexo</label>
+          <select id="sIdeal">
+            <option value="">Selecciona…</option>
+            <option value="M">Masculino</option>
+            <option value="F">Femenino</option>
+          </select>
+          <span class="em">Selecciona tu sexo</span>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-p">🎯 Calcular Peso Ideal</button>
+    </form>
+
+    <div class="rc hidden" id="rIdeal" aria-live="polite">
+      <div class="rc__i">
+        <div class="rm">
+          <span class="rl">Rango de Peso Ideal (OMS)</span>
+          <span class="rv" id="idRango" style="font-size:2.2rem">–</span>
+        </div>
+        <div class="cg" style="margin-bottom:1rem">
+          <div class="ci"><span class="cl">Método Hamwi</span><span class="cv" id="idHam">–</span><span class="cu">kg</span></div>
+          <div class="ci"><span class="cl">IMC ideal (22)</span><span class="cv" id="idI22">–</span><span class="cu">kg</span></div>
+        </div>
+        <p class="radv" id="idAdv"></p>
+      </div>
+    </div>
+
+    <aside class="ad-d ad-bm" id="adBM" aria-label="Publicidad"></aside>
+
+    <div style="background:#fff;border-radius:14px;padding:2rem;box-shadow:0 4px 24px rgba(10,35,66,.08);margin-bottom:2rem">
+      <h2 style="font-family:'Syne',sans-serif;color:#0a2342;font-size:1.3rem;margin-bottom:.85rem">¿Cómo se calcula el peso ideal?</h2>
+      <p style="color:#4b5563;line-height:1.8;margin-bottom:.75rem">Existen varios métodos reconocidos. El <strong>rango OMS</strong> se basa en el IMC saludable (18.5–24.9) aplicado a tu estatura: <em>peso mínimo = 18.5 × estatura²</em> y <em>peso máximo = 24.9 × estatura²</em>.</p>
+      <p style="color:#4b5563;line-height:1.8">La <strong>fórmula Hamwi</strong> estima: hombres → 48 kg + 2.7 kg por cada 2.54 cm sobre 152 cm; mujeres → 45.5 kg + 2.2 kg por cada 2.54 cm sobre 152 cm.</p>
+    </div>
+
+    <div class="nav-pages">
+      <span style="font-size:.85rem;font-weight:700;color:#4b5563;align-self:center">Ver también:</span>
+      <a href="imc.html">⚖️ Calcular IMC</a>
+      <a href="calorias.html">🔥 Calorías Diarias</a>
+      <a href="cintura.html">📏 Cintura-Altura</a>
+      <a href="consejos.html">💡 Consejos</a>
+    </div>
+
+  </div>
+</main>
+
+<footer class="ft">
+  <div class="c">
+    <div class="ft__i">
+      <div class="ft__b"><span class="logo__t">Calculadora<strong>IMC</strong>.online</span><p>No sustituye el consejo médico profesional.</p></div>
+      <div class="ft__ac"><h3>¿Quieres anunciarte?</h3><p>Llega a miles de usuarios en salud.</p><button class="btn btn-s" onclick="abrirModal()" style="margin-top:0;padding:.6rem 1.25rem;font-size:.85rem">📩 Contactar</button></div>
+      <div class="ft__l"><p>&copy; 2026 CalculadoraIMC.online</p></div>
+    </div>
+    <div class="ft__copy">&copy; 2026 CalculadoraIMC.online — Resultados orientativos. Consulta a un profesional.</div>
+  </div>
+</footer>
+
+<div class="modal-ov" id="modalContacto" role="dialog" aria-modal="true" onclick="cerrarFondo(event)">
+  <div class="modal">
+    <button class="modal__x" onclick="cerrarModal()">✕</button>
+    <span class="modal__badge">📣 Publicidad</span>
+    <h2 class="modal__title">Quiero anunciarme aquí</h2>
+    <p class="modal__sub">Te respondemos en menos de 24 horas.</p>
+    <form id="formPub" action="PEGA_TU_LINK_FORMSPREE_AQUI" method="POST" novalidate>
+      <input type="hidden" name="_subject" value="💼 Solicitud publicidad – CalculadoraIMC.online"/>
+      <input type="text" name="_gotcha" style="display:none" tabindex="-1"/>
+      <div class="m-row">
+        <div class="m-fg"><label for="pNombre">Nombre *</label><input type="text" id="pNombre" name="nombre" placeholder="Tu nombre"/><span class="m-err">Requerido</span></div>
+        <div class="m-fg"><label for="pEmpresa">Empresa</label><input type="text" id="pEmpresa" name="empresa" placeholder="Opcional"/></div>
+      </div>
+      <div class="m-fg"><label for="pEmail">Email *</label><input type="email" id="pEmail" name="email" placeholder="tu@email.com"/><span class="m-err">Email válido requerido</span></div>
+      <div class="m-fg"><label for="pTipo">Espacio *</label><select id="pTipo" name="tipo_anuncio"><option value="">Selecciona…</option><option>Banner lateral 300×250</option><option>Banner bajo calculadora</option><option>Paquete completo</option><option>Otro</option></select><span class="m-err">Selecciona un espacio</span></div>
+      <div class="m-fg"><label for="pMensaje">Mensaje *</label><textarea id="pMensaje" name="mensaje" placeholder="Cuéntanos sobre tu producto…"></textarea><span class="m-err">Requerido</span></div>
+      <button type="submit" class="btn-modal" id="btnEnviar">📨 Enviar solicitud</button>
+      <div class="m-status" id="mStatus"></div>
+      <p class="m-privacy">🔒 Tu información nunca se comparte.</p>
+    </form>
+  </div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script src="app.js"></script>
+<script>
+document.getElementById("fIdeal").addEventListener("submit", function(e){
+  e.preventDefault();
+  if(!validar(["tIdeal","sIdeal"])) return;
+  const cm=+g("tIdeal").value, sex=g("sIdeal").value, m=cm/100;
+  const mn=(18.5*m*m).toFixed(1), mx=(24.9*m*m).toFixed(1), i22=(22*m*m).toFixed(1);
+  let ham=sex==="M"?48+2.7*((cm-152.4)/2.54):45.5+2.2*((cm-152.4)/2.54);
+  ham=Math.max(ham,+mn).toFixed(1);
+  tx("idRango",mn+" – "+mx+" kg"); tx("idHam",ham); tx("idI22",i22);
+  tx("idAdv","Para "+cm+" cm el rango OMS va de "+mn+" a "+mx+" kg. El método Hamwi estima "+ham+" kg como tu peso ideal.");
+  show("rIdeal");
+  toast("Peso ideal: "+mn+" – "+mx+" kg","ok");
+});
+</script>
+</body>
+</html>
